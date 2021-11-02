@@ -1,4 +1,7 @@
 filetype plugin on
+setlocal ff=unix
+set fileformat=unix
+set fileformats=unix,dos
 syntax on
 
 " sensible editing defaults
@@ -16,8 +19,6 @@ set nobackup
 set incsearch
 set termguicolors
 set encoding=utf-8
-set fileformat=unix
-set fileformats=unix,dos
 
 colorscheme uwu
 autocmd BufNewFile,BufRead *.go colorscheme m2q-go
